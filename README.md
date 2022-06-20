@@ -41,3 +41,6 @@ A command line application that prompts a user to:
 ## Wiring (quick overview)
 
 ## Code Review
+
+#
+![UML](./assets/uml1.jpg)
