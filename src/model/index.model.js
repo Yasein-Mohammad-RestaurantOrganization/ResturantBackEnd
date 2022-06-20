@@ -3,7 +3,7 @@ require("dotenv").config();
 const drinksModel = require("./cafe.model");
 const contactModel = require("./contact.model");
 const deliveryModel = require("./delivery.model");
-const  = require('./snacks.model');
+const snacksModel = require("./snacks.model");
 
 const Collection = require("./collection");
 const { Sequelize, DataTypes } = require("sequelize");
