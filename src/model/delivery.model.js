@@ -1,5 +1,5 @@
 "use strict";
-const delivery = (sequelize, DataTypes) =>
+const deliveryModel = (sequelize, DataTypes) =>
   sequelize.define("delivery", {
     userName: {
       type: DataTypes.STRING,
@@ -23,4 +23,4 @@ const delivery = (sequelize, DataTypes) =>
     },
   });
 
-module.exports = delivery;
+module.exports = deliveryModel;

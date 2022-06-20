@@ -1,5 +1,5 @@
 "use strict";
-const contact = (sequelize, DataTypes) =>
+const contactModel = (sequelize, DataTypes) =>
   sequelize.define("contact", {
     userName: {
       type: DataTypes.STRING,
@@ -19,4 +19,4 @@ const contact = (sequelize, DataTypes) =>
     },
   });
 
-module.exports = contact;
+module.exports = contactModel;
