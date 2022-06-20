@@ -9,7 +9,7 @@ sequelize.define('coffeeHouse', {
         type: DataTypes.STRING,
         required: true
     },
-    ingrediants: {
+    ingredients: {
         type: DataTypes.STRING,
         required: true
     },
