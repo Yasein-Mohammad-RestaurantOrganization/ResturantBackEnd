@@ -7,7 +7,6 @@ const acl = require("../middleware/acl");
 
 const router = express.Router();
 
-// console.log("llllllllll");
 router.param("model", (req, res, next) => {
   const modelName = req.params.model;
   if (dataModules[modelName]) {
