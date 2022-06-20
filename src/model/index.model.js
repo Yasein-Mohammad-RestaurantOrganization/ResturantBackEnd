@@ -3,7 +3,7 @@ require("dotenv").config();
 const drinksModel = require("./cafe.model");
 const contactModel = require("./contact.model");
 const deliveryModel = require("./delivery.model");
-const snacksModel = require("./snacks.model");
+const snacksModel = require('./snacks.model');
 
 const Collection = require("./collection");
 const { Sequelize, DataTypes } = require("sequelize");
@@ -25,7 +25,6 @@ const drinksTable = drinksModel(sequelize, DataTypes);
 const contactTable = contactModel(sequelize, DataTypes);
 const deliveryTable = deliveryModel(sequelize, DataTypes);
 const snacksTable = snacksModel(sequelize, DataTypes);
-
 const userTable = UserModel(sequelize, DataTypes);
 
 const drinksCollection = new Collection(drinksTable);
@@ -40,6 +39,5 @@ module.exports = {
   contact: contactCollection,
   delivery: deliveryCollection,
   snacks: snacksCollection,
-
   Users: userTable,
 };
